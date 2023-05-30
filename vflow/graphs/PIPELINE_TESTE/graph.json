@@ -1,4 +1,5 @@
 {
+    "properties": {},
     "description": "",
     "processes": {
         "wiretap1": {
@@ -28,7 +29,7 @@
                 ],
                 "generation": 1,
                 "config": {
-                    "script": "def gen():\n    api.send(\"output\", api.Message(body=\"Teste\"))\n    \napi.add_generator(gen)"
+                    "script": "def gen():\n    api.send(\"output\", api.Message(body=\"Teste 123\"))\n    \napi.add_generator(gen)"
                 },
                 "additionaloutports": [
                     {
@@ -57,7 +58,6 @@
     ],
     "inports": {},
     "outports": {},
-    "properties": {},
     "metadata": {
         "generation": 1
     }
